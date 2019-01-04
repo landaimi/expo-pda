@@ -1,7 +1,12 @@
-# Add any directories, files, or patterns you don't want to be tracked by version control
-android/\.idea/
 
 android/\.gradle/
-node_modules/**/*
-.expo/*
-npm-debug.*
+
+android/\.idea/
+
+android/app/\.settings/
+
+android/app/build/
+
+android/app/libs/ScannerInterface\.jar
+
+android/build/
