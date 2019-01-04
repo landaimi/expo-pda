@@ -10,3 +10,9 @@ android/app/build/
 android/app/libs/ScannerInterface\.jar
 
 android/build/
+
+node_modules/
+
+\.vscode/settings\.json
+
+package-lock\.json
