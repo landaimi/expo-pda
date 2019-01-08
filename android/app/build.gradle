@@ -60,18 +60,13 @@ android {
   }
   signingConfigs {
     release {
-      storeFile file('/Users/zhangfangfang/pda-app.keystore')
+      storeFile file('../release.keystore')
       storePassword "123456"
-      keyAlias 'key0'
+      keyAlias 'pdaApp'
       keyPassword "123456"
     }
   }
   buildTypes {
-    debug {
-      debuggable true
-      ext.enableCrashlytics = false
-      signingConfig signingConfigs.release
-    }
     release {
       minifyEnabled false
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
